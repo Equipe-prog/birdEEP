@@ -83,14 +83,14 @@ strong{
   margin-bottom: 1em;
 }
 .hero:nth-child(1){
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/imgs/514566.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://equipe-prog.github.io/birdEEP/imgs/514566.jpg");
 }
 .hero:nth-child(3){
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/imgs/beija-flor-significado.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://equipe-prog.github.io/birdEEP/imgs/beija-flor-significado.jpg");
 }
 
 .hero:nth-child(5){
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/imgs/3933067605-.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://equipe-prog.github.io/birdEEP/imgs/3933067605-.jpg");
 }
 
 
