@@ -1,0 +1,236 @@
+
+body {
+  
+  background: #1f0866;
+  color: white;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+img{
+
+  height: 55rem;
+}
+
+.container{
+  display: flex;
+}
+
+.sub-container{
+  background-color: #2b272744 ;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  display: block flex;
+  width: max-content;
+  height: max-content;
+  padding: 4px 4px 4px 4px;
+}
+.cantoSu{
+  
+  position: absolute;
+  height: 4vh;
+  right: 10px;
+  bottom: - 40px;
+  -webkit-animation: cantoSu-pisca .9s linear infinite;
+  -moz-animation: cantoSu-pisca .9s linear infinite;
+  -ms-animation: cantoSu-pisca .9s linear infinite;
+  -o-animation: cantoSu-pisca .9s linear infinite;
+  animation: cantoSu-pisca .9s linear infinite;
+  align-items: center;
+
+}
+.cantoSu img{
+  height: 4vh;
+  
+}
+.cantoSu p{
+  color: white;
+  padding: 0px;
+  margin: 0;
+  height: 4vh;
+}
+
+@keyframes cantoSu-pisca {
+  0% { opacity: 0; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+
+
+strong{
+  color: red;
+}
+.hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.hero h1 {
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.hero h2 {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.hero:nth-child(1){
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/imgs/514566.jpg");
+}
+.hero:nth-child(3){
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/imgs/beija-flor-significado.jpg");
+}
+
+.hero:nth-child(5){
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/imgs/3933067605-.jpg");
+}
+
+
+
+h1 {
+  
+  color: #fff;
+  text-shadow: -1px 0 0 #fdff2a, -3px 0 0 #df4a42, 1px 0 0 #91fcfe, 3px 0 0 #4405fc;
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+   
+  color: #fff;
+  text-shadow: -1px 0 0 #fdff2a, -3px 0 0 #df4a42, 1px 0 0 #91fcfe, 3px 0 0 #4405fc;
+  text-align: center;
+  font-size: 25px;
+}
+
+h3 {
+   
+  color: #fff;
+  text-shadow: -1px 0 0 #fdff2a, -3px 0 0 #df4a42, 1px 0 0 #91fcfe, 3px 0 0 #4405fc;
+  text-align: center;
+}
+
+
+
+.center {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  width: 100vw;
+  padding: 50px;
+  box-shadow: -1px 0 0 #fdff2a, -3px 0 0 #df4a42, 1px 0 0 #91fcfe, 3px 0 0 #4405fc;
+  
+  
+}
+
+aside {
+  width: 25%;
+}
+
+article {
+  width: 75%;
+  margin-right: 10%;
+}
+article h2 {
+  padding: 40px 0 0 0;
+}
+
+.pagination {
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  --ddim: 10px;
+  --rd: 15px;
+  --rdim: calc(var(--rd) * 2);
+  --pm: #ffff03;
+  margin-bottom: 45px;
+}
+
+label {
+  content: "";
+  margin: 0 10px;
+  height: var(--ddim);
+  width: var(--ddim);
+  background: whitesmoke;
+  cursor: pointer;
+  box-shadow: -1px 0 0 #fdff2a, -2px 0 0 #df4a42, 1px 0 0 #91fcfe, 2px 0 0 #4405fc;
+}
+label:first-child {
+  margin-left: 0;
+}
+label:last-child {
+  margin-right: 0;
+}
+
+input {
+  display: none;
+}
+
+
+
+figcaption {
+  margin-top: -50px;
+  padding: 20px;
+  text-shadow: -1px 0 0 #fdff2a, -3px 0 0 #df4a42, 1px 0 0 #91fcfe, 3px 0 0 #4405fc;
+  animation: blink 1s steps(4, start) infinite;
+}
+
+.article-tags {
+  display: flex;
+  flex-direction: column;
+}
+.article-tags .tag {
+  background: whitesmoke;
+  display: inline-block;
+  position: relative;
+  font-size: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  max-width: 70%;
+   
+  text-decoration: none;
+  color: black;
+  box-shadow: inset -1px 0 0 #fdff2a, -2px 3px 0 #df4a42, 1px 0 0 #91fcfe, 2px 0 0 #4405fc;
+}
+.article-tags .tag:after {
+  left: -6px;
+  top: 0;
+  border-left: 6px black solid;
+  border-right: 6px black solid;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: content-box;
+}
+.article-tags .tag:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: content-box;
+}
+.blink{
+  background: #FAFAFA;
+  
+	animation: bg 4s infinite;
+
+}
+@keyframes bg {
+	50% {
+		background: #0069D9;
+    color: white;
+	}
+}

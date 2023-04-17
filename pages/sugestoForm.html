@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-BIRD sugestões</title>
+  
+    <link rel="stylesheet"><link rel="stylesheet" href="/css/sugest.css">
+	<link rel="icon" href="/imgs/birdeep.svg" />
+</head>
+<body>
+  <div class='form-container'>
+    <div class='left-container'>
+      <h1>
+        <i class='fas fa-paw'></i>
+        Sugestões para o forum
+      </h1>
+      <div class='puppy'>
+        <img src="/imgs/birdeep.svg">
+      </div>
+    </div>
+    <div class='right-container'>
+      <header>
+        <h1>Primeiro Formulario de sugestões</h1>
+        <div class='set'>
+          <div class='bird-name'>
+            <label for='bird-name'>Nome:</label>
+            <input id='bird-name' placeholder="Seu nome" type='text'>
+          </div>
+          <div class='bird-name'>
+            <label for='bird-name'>Email:</label>
+            <input id='bird-name' placeholder="Seu email" type='text'>
+          </div>
+        </div>
+        
+        <div class='set'>
+          <div class='bird-option'>
+            <label for='adicionar'>Adicionar ou alterar aves</label>
+            <div class='radio-container'>
+              <input checked='' id='adicionar' name='add' type='radio' value='spayed'>
+              <label for='adicionar'>adicionar</label>
+              <input id='alterar' name='add' type='radio' value='neutered'>
+              <label for='alterar'>alterar</label>
+            </div>
+          </div>
+          <div class='bird-nationality'>
+            <label for='nacional'>Nacionalidade</label>
+            <div class='radio-container'>
+              <input checked='' id='nacional' name='naciona' type='radio' value='female'>
+              <label for='nacional'>nacional</label>
+              <input id='estrangeiro' name='naciona' type='radio' value='male'>
+              <label for='estrangeiro'>estrageiro</label>
+            </div>
+          </div>
+        </div>
+        <div class='set '>
+          <div class='bird-name'>
+            <textarea for='bird-name' rows="4" placeholder="sugestão"></textarea>
+          </div>
+        </div>
+        <div class='set '>
+          <button id='back'>Voltar</button>
+          <button id='next'>adicionar</button>
+        </div>
+      </header>
+     
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="/js/acoes.js"></script>
+</body>
+</html>
